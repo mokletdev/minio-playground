@@ -1,0 +1,37 @@
+{
+  "name": "mokletdev-minio-playground",
+  "version": "1.0.0",
+  "description": "Playground for uploading files thru Minio.",
+  "main": "index.js",
+  "bin": {
+    "mokletdev-minio-playground": "server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokletdev/mokletdev-minio-playground.git"
+  },
+  "keywords": [
+    "Minio",
+    "Telkom",
+    "Mokletdev"
+  ],
+  "author": "Mokletdev Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mokletdev/mokletdev-minio-playground/issues"
+  },
+  "homepage": "https://github.com/mokletdev/mokletdev-minio-playground#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "minio": "^7.0.25",
+    "restify": "^8.6.0",
+    "restify-router": "^0.6.2",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
