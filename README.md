@@ -1,6 +1,4 @@
 # mokletdev-minio-playground
-
-# mokletdev-minio-playground
 Playground for testing upload files with Minio.
 
 ## Project Status
